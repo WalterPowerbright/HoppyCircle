@@ -55,4 +55,5 @@ void draw_title() {
 void draw_game_over(int score) {
 	DrawText("GAME\nOVER", 32.0, 180.0, 64, NOKIA_LIGHT);
 	DrawText(get_final_score(score), 32.0, 340.0, 32, NOKIA_LIGHT);
+	DrawText("Click to Reset", 32.0, 456.0, 32, NOKIA_LIGHT);
 }
